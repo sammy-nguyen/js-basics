@@ -66,3 +66,4 @@ function iLove(name, love) {
 }
 
 iLove('Sam', 'cooking')
+// instead of return line ....console.log{`$}

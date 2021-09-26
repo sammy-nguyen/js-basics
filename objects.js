@@ -21,9 +21,11 @@
    firstName: "Sammy",
    state: "UTAH",
    age: 26;
-   greeter: return 'Hello! My name is ${firstName} and I live in ${state}'
-}
- console.log(me.greeter)
+   greeter: function () {
+     `Hello! My name is ${this.firstName} and I live in ${this.state}`
+   }
+  }
+ console.log(me.greeter())
 
 //////////////////PROBLEM 2////////////////////
 /*
